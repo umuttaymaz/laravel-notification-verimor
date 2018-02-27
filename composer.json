@@ -1,0 +1,39 @@
+{
+    "name": "umuttaymaz/laravel-notification-verimor",
+    "description": "Verimor SMS for Laravel Notifications",
+    "homepage": "https://github.com/umuttaymaz/laravel-notification-verimor",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Umut Taymaz",
+            "email": "umut@kreator.com.tr",
+            "homepage": "www.kreator.com.tr",
+            "role": "Co-Founder"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Verimor\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Verimor\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
