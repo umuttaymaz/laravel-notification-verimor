@@ -2,14 +2,10 @@
 
 namespace UmutTaymaz\VerimorSMS;
 
-use UmutTaymaz\VerimorSMS\CouldNotSendNotification;
-use UmutTaymaz\VerimorSMS\MessageWasSent;
-use UmutTaymaz\VerimorSMS\SendingMessage;
 use Illuminate\Notifications\Notification;
 
 class VerimorSMSChannel
 {
-
     protected $verimorSMSApi;
 
     public function __construct(VerimorSMSApi $verimorSMSApi)
@@ -35,8 +31,6 @@ class VerimorSMSChannel
 
         $message = $notification->toVerimor($notifiable);
 
-
         $this->verimorSMSApi->send($message, $to);
     }
-
 }

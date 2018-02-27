@@ -2,8 +2,6 @@
 
 namespace UmutTaymaz\VerimorSMS;
 
-use Illuminate\Support\Arr;
-
 class VerimorSMSMessage
 {
     /**
@@ -17,6 +15,7 @@ class VerimorSMSMessage
     {
         return new static($content);
     }
+
     /**
      * @param  string  $content
      */
@@ -24,6 +23,7 @@ class VerimorSMSMessage
     {
         $this->content = $content;
     }
+
     /**
      * Set the message content.
      *
@@ -34,6 +34,7 @@ class VerimorSMSMessage
     public function content($content)
     {
         $this->content = $content;
+
         return $this;
     }
 }
