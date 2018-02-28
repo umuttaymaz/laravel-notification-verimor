@@ -6,7 +6,6 @@ use Illuminate\Notifications\Notification;
 
 class VerimorSMSChannel
 {
-
     protected $verimorSMSApi;
 
     public function __construct(VerimorSMSApi $verimorSMSApi)
@@ -34,5 +33,4 @@ class VerimorSMSChannel
 
         $this->verimorSMSApi->send($message, $to);
     }
-
 }
