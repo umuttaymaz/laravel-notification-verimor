@@ -2,9 +2,6 @@
 
 namespace UmutTaymaz\VerimorSMS;
 
-use UmutTaymaz\VerimorSMS\CouldNotSendNotification;
-use UmutTaymaz\VerimorSMS\MessageWasSent;
-use UmutTaymaz\VerimorSMS\SendingMessage;
 use Illuminate\Notifications\Notification;
 
 class VerimorSMSChannel
@@ -23,7 +20,7 @@ class VerimorSMSChannel
      * @param mixed $notifiable
      * @param \Illuminate\Notifications\Notification $notification
      *
-     * @throws UmutTaymaz\VerimorSMS\Exceptions\CouldNotSendNotification
+     * @throws \UmutTaymaz\VerimorSMS\Exceptions\CouldNotSendNotification
      */
     public function send($notifiable, Notification $notification)
     {
@@ -34,7 +31,6 @@ class VerimorSMSChannel
         }*/
 
         $message = $notification->toVerimor($notifiable);
-
 
         $this->verimorSMSApi->send($message, $to);
     }

@@ -1,22 +1,14 @@
 # Verimor notifications channel for Laravel 5.3+
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/verimor.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/verimor)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/laravel-notification-channels/verimor.svg?style=flat-square)](https://packagist.org/packages/umuttaymaz/laravel-notification-verimor)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/laravel-notification-channels/verimor/master.svg?style=flat-square)](https://travis-ci.org/laravel-notification-channels/verimor)
-[![StyleCI](https://styleci.io/repos/:style_ci_id/shield)](https://styleci.io/repos/:style_ci_id)
-[![SensioLabsInsight](https://img.shields.io/sensiolabs/i/:sensio_labs_id.svg?style=flat-square)](https://insight.sensiolabs.com/projects/:sensio_labs_id)
-[![Quality Score](https://img.shields.io/scrutinizer/g/laravel-notification-channels/verimor.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/verimor)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/laravel-notification-channels/verimor/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/laravel-notification-channels/verimor/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-notification-channels/verimor.svg?style=flat-square)](https://packagist.org/packages/laravel-notification-channels/verimor)
+[![Build Status](https://img.shields.io/travis/umuttaymaz/laravel-notification-verimor/master.svg?style=flat-square)](https://travis-ci.org/umuttaymaz/laravel-notification-verimor)
+[![StyleCI](https://styleci.io/repos/123153620/shield)](https://styleci.io/repos/123153620)
+[![Quality Score](https://img.shields.io/scrutinizer/g/umuttaymaz/laravel-notification-verimor.svg?style=flat-square)](https://scrutinizer-ci.com/g/umuttaymaz/laravel-notification-verimor)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/umuttaymaz/laravel-notification-verimor/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/umuttaymaz/laravel-notification-verimor/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/umuttaymaz/laravel-notification-verimor.svg?style=flat-square)](https://packagist.org/packages/umuttaymaz/laravel-notification-verimor)
 
 This package makes it easy to send notifications using [VerimorSMS](https://verimor.com.tr) with Laravel 5.3.
-
-**Note:** Replace  ```:style_ci_id``` ```:sensio_labs_id``` with their correct values in [README.md](README.md), [CHANGELOG.md](CHANGELOG.md), [CONTRIBUTING.md](CONTRIBUTING.md), [LICENSE.md](LICENSE.md), [composer.json](composer.json) and other files, then delete this line.
-**Tip:** Use "Find in Path/Files" in your code editor to find these keywords within the package directory and replace all occurences with your specified term.
-
-This is where your description should go. Add a little code example so build can understand real quick how the package can be used. Try and limit it to a paragraph or two.
-
-
 
 ## Contents
 
