@@ -22,12 +22,12 @@
     },
     "autoload": {
         "psr-4": {
-            "NotificationChannels\\Verimor\\": "src"
+            "UmutTaymaz\\VerimorSMS\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "NotificationChannels\\Verimor\\Test\\": "tests"
+            "UmutTaymaz\\VerimorSMS\\": "tests"
         }
     },
     "scripts": {
